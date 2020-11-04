@@ -1,0 +1,136 @@
+.casilleropj {
+  width: 820px;
+  height: 200px;
+  border: 1px solid var(--borde-gris);
+  margin: 30px;
+}
+
+.casilleropj .pjtop {
+  height: 200px;
+  width: 820px;
+  overflow: hidden;
+  position: absolute;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.casilleropj .triangle {
+  height: 0px;
+  width: 0px;
+  border-top: 80px solid var(--color-acento);
+  border-left: 510px solid var(--color-acento);
+  border-bottom: 80px solid transparent;
+  border-right: 510px solid transparent;
+  position: absolute;
+  opacity: .5;
+}
+
+.casilleropj .picpj {
+  width: 104px;
+  height: 104px;
+  border: 10px solid var(--color-acento);
+  box-shadow: 1px 1px 5px rgba(0,0,0,0.3), -1px 1px 5px rgba(0,0,0,0.3), 1px -1px 5px rgba(0,0,0,0.3), -1px -1px 5px rgba(0,0,0,0.3);
+  position: absolute;
+  border-radius: 50%;
+  margin: 38px 348px;
+}
+
+.casilleropj .picpj img {
+  border: 2px solid #000;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+.casilleropj .namepj {
+  color: var(--color-texto-claro);
+  position: absolute;
+  font-family: 'Raleway';
+  font-weight: 900;
+  text-transform: uppercase;
+  font-size: 30px;
+  line-height: 30px;
+  text-align: center;
+  text-shadow: 1px 1px 1px rgba(0,0,0,0.3), -1px 1px 1px rgba(0,0,0,0.3), 1px -1px 1px rgba(0,0,0,0.3), -1px -1px 1px rgba(0,0,0,0.3);
+  margin: 30px 0px;
+  width: 345px;
+}
+
+.casilleropj .namepj span {
+  font-weight: 600;
+  display: block;
+  font-size: 9px;
+  line-height: 9px;
+  margin-left: 15px;
+  letter-spacing: 15px;
+  text-shadow: none;
+  color: #000;
+}
+
+.casilleropj .bigdatapj {
+  position: absolute;
+  width: 340px;
+  margin: 110px 475px;
+  text-align: center;
+  color: var(--color-texto-claro);
+  font-size: 9px;
+  font-family: 'Raleway';
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  line-height: 12px;
+}
+
+.casilleropj .bigdatapj div {
+  display: inline-block;
+  width: 100px;
+}
+
+.casilleropj .bigdatapj i {
+  color: var(--color-acento);
+  font-size: 20px;
+  display: block;
+  line-height: 30px;
+}
+
+.casilleropj .bigdatapj .ra:before {
+  vertical-align: 2px;
+}
+
+.casilleropj.rom .triangle { border-top: 80px solid var(--color-romanos); border-left: 510px solid var(--color-romanos); } 
+.casilleropj.rom .picpj { border-color: var(--color-romanos); }
+.casilleropj.rom .bigdatapj i { color: var(--color-romanos); }
+
+.casilleropj.gri .triangle { border-top: 80px solid var(--color-griegos); border-left: 510px solid var(--color-griegos); } 
+.casilleropj.gri .picpj { border-color: var(--color-griegos); }
+.casilleropj.gri .bigdatapj i { color: var(--color-griegos); }
+
+.casilleropj.cel .triangle { border-top: 80px solid var(--color-celtas); border-left: 510px solid var(--color-celtas); } 
+.casilleropj.cel .picpj { border-color: var(--color-celtas); }
+.casilleropj.cel .bigdatapj i { color: var(--color-celtas); }
+
+:root {
+  --color-eleonora: #c78b43;
+  --color-eleonora-o: #c78b4350;
+  --color-artai: #935454;
+  --color-artai-o: #93545450;
+  --color-william: #5782af;
+  --color-william-o: #5782af50;
+  --color-julian: #726a85;
+  --color-julian-o: #726a8550;
+}
+
+.casilleropj.eleo .triangle { border-top: 80px solid var(--color-eleonora); border-left: 510px solid var(--color-eleonora); } 
+.casilleropj.eleo .picpj { border-color: var(--color-eleonora-o); }
+.casilleropj.eleo .bigdatapj i { color: var(--color-eleonora); }
+
+.casilleropj.tai .triangle { border-top: 80px solid var(--color-artai); border-left: 510px solid var(--color-artai); } 
+.casilleropj.tai .picpj { border-color: var(--color-artai-o); }
+.casilleropj.tai .bigdatapj i { color: var(--color-artai); }
+
+.casilleropj.will .triangle { border-top: 80px solid var(--color-william); border-left: 510px solid var(--color-william); } 
+.casilleropj.will .picpj { border-color: var(--color-william-o); }
+.casilleropj.will .bigdatapj i { color: var(--color-william); }
+
+.casilleropj.jules .triangle { border-top: 80px solid var(--color-julian); border-left: 510px solid var(--color-julian); } 
+.casilleropj.jules .picpj { border-color: var(--color-julian-o); }
+.casilleropj.jules .bigdatapj i { color: var(--color-julian); }
