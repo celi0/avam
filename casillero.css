@@ -93,7 +93,7 @@
 }
 
 .casilleropj .bigdatapj .ra:before {
-  vertical-align: 2px;
+  vertical-align: 0px;
 }
 
 .casilleropj.rom .triangle { border-top: 80px solid var(--color-romanos); border-left: 510px solid var(--color-romanos); } 
