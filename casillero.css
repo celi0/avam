@@ -92,6 +92,10 @@
   line-height: 30px;
 }
 
+.casilleropj .bigdatapj .sf {
+  margin-bottom: 5px;
+}
+
 .casilleropj.rom .triangle { border-top: 80px solid var(--color-romanos); border-left: 510px solid var(--color-romanos); } 
 .casilleropj.rom .picpj { border-color: var(--color-romanos); }
 .casilleropj.rom .bigdatapj i { color: var(--color-romanos); }
