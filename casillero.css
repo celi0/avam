@@ -92,10 +92,6 @@
   line-height: 30px;
 }
 
-.casilleropj .bigdatapj .ra:before {
-  vertical-align: 0px;
-}
-
 .casilleropj.rom .triangle { border-top: 80px solid var(--color-romanos); border-left: 510px solid var(--color-romanos); } 
 .casilleropj.rom .picpj { border-color: var(--color-romanos); }
 .casilleropj.rom .bigdatapj i { color: var(--color-romanos); }
