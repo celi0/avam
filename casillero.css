@@ -1,6 +1,6 @@
 .casilleropj {
   width: 820px;
-  height: 200px;
+  height: 400px;
   border: 1px solid var(--borde-gris);
   margin: 30px;
   background-attachment: fixed;
@@ -8,10 +8,11 @@
   line-height: 0px;
   color: red;
   text-align: right;
+  margin-bottom: -30px;
 }
 
 .casilleropj .pjtop {
-  height: 400px;
+  height: 200px;
   width: 820px;
   overflow: hidden;
   position: absolute;
