@@ -1,0 +1,14 @@
+/*CÁMBIAME TE PIDO KAWENNA*/
+.postprofile-avatar a[href="/u656"] img {content: url('https://media.discordapp.net/attachments/691421560690573382/773911931684782080/ciicatriz_de_kiwi-1.png');} 
+.post-cabecera-username a[href="/u656"] strong:after {font-size: 20px; content: "Feyre MacAeir";} .post-cabecera-username a[href="/u656"] strong {font-size: 0px;} 
+.author-656 .rng-asc {font-size: 0px; letter-spacing: 0px} .author-656 .rng-asc:before {font-size: 10px; letter-spacing: 0.5;}
+.author-656 .rng-asc:after {content: "Morrigan"; font-size: 10px; letter-spacing: 0.5;} 
+.author-656 .post-cabecera-icon .default-icon:after {content: "\efe6"; font-family: 'IcoFont';} .author-656 .post-cabecera-icon .default-icon i {display: none;} 
+.author-656 .postprofile-field-edad .postprofile-field-content, .author-656 .postprofile-field-anos-de-servicio .postprofile-field-content, .author-656 .postprofile-field-estadisticas .postprofile-field-content {font-size: 0px;} 
+.author-656 .postprofile-field-edad .postprofile-field-content:before {font-size: 20px; content: "21";} 
+.author-656 .postprofile-field-anos-de-servicio .postprofile-field-content:before {font-size: 20px; content: "8";} 
+.author-656 .postprofile-field-estadisticas .ra-health:after {content: " 11 "; font-size: 18px; color: var(--color-texto-claro); font-weight: 500; font-family: 'Calibri'; letter-spacing: 0.5px;} 
+.author-656 .postprofile-field-estadisticas .ra-crossed-swords:after {content: " 5 "; font-size: 18px; color: var(--color-texto-claro); font-weight: 500; font-family: 'Calibri'; letter-spacing: 0.5px;} 
+.author-656 .postprofile-field-estadisticas .ra-broken-shield:after {content: " 5 "; font-size: 18px; color: var(--color-texto-claro); font-weight: 500; font-family: 'Calibri'; letter-spacing: 0.5px;} 
+.author-656 .postprofile-field-estadisticas .ra-splash:after {content: " 5 "; font-size: 18px; color: var(--color-texto-claro); font-weight: 500; font-family: 'Calibri'; letter-spacing: 0.5px;} 
+.author-656 .postprofile-field-estadisticas .ra-player-dodge:after {content: " 3 "; font-size: 18px; color: var(--color-texto-claro); font-weight: 500; font-family: 'Calibri'; letter-spacing: 0.5px;}
