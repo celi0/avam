@@ -217,7 +217,7 @@
 }
 
 .sgbkit:hover .sgbcol span {
-  animation: basket 3s ease-out infinite;
+  animation: basket 3s ease-out;
 }
 
 @keyframes basket {
