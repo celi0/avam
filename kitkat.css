@@ -1,0 +1,286 @@
+/*FIRMA HOMESICK BY DUA LIPA*/
+.sghkit {
+  width: 330px;
+  height: 200px;
+  border: 11px solid var(--fondo-claro);
+  margin: 10px auto;
+  outline: 1px solid var(--fondo-oscuro);
+  outline-offset: -11px;
+}
+
+.sghkit .sghkhk {
+  width: 330px;
+  height: 200px;
+  position: absolute;
+  overflow: hidden;
+}
+
+.sghkit .sghkbk {
+  width: 330px;
+  height: 200px;
+  background-image: url(https://imgur.com/llDlg9x.png);
+  background-position: bottom;
+  transition: 0.5s ease-in;
+  transition-delay: 0.7s;
+  position: absolute;
+}
+
+.sghkit:hover .sghkbk {
+  background-position: top;
+  transition: 0.8s ease-out;
+}
+
+.sghkit .sghkbk:after {
+  content: "";
+  display: block;
+  height: 200px;
+  width: 330px;
+  background-image: url(https://imgur.com/up2Ycv9.png);
+  opacity: 0;
+  transition: 0.3s ease-in;
+  transition-delay: 0.5s;
+}
+
+.sghkit:hover .sghkbk:after {
+  opacity: 1;
+  transition: 0.2s ease-out;
+  transition-delay: 0.7s;
+}
+
+.sghkit .sghkak {
+  width: 20px;
+  height: 160px;
+  padding: 20px;
+  background: rgba(0,0,0,0.3);
+  position: absolute;
+  backdrop-filter: blur(0.5px);
+  margin-left: 20px;
+  transition: 0.5s ease-in;
+  transition-delay: 0.1s;
+}
+
+.sghkit .sghkak:before {
+  content: "";
+  width: 1px;
+  height: 200px;
+  background: var(--color-texto);
+  position: absolute;
+  margin: -20px;
+  transition: 0.5s ease-in;
+}
+
+.sghkit .sghkak:after {
+  content: "";
+  width: 1px;
+  height: 200px;
+  background: var(--color-texto);
+  position: absolute;
+  margin: -40px 40px;
+  transition: 0.5s ease-in;
+}
+
+.sghkit .sghkak i {
+  display: block;
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  font-size: 20px;
+  line-height: 20px;
+  color: var(--color-texto);
+  animation: homesick linear 10s infinite;
+  transition: 0.5s ease-in;
+  transition-delay: 0.1s;
+}
+
+@keyframes homesick {
+  25% {
+    transform: rotate(90deg);
+  }
+  50% {
+    transform: rotate(180deg);
+  }
+  75% {
+    transform: rotate(270deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.sghkit:hover .sghkak:before {
+  margin-top: -220px;
+  transition: 0.5s ease-out;
+  transition-delay: 0.6s;
+}
+
+.sghkit:hover .sghkak:after {
+  margin-top: 180px;
+  transition: 0.5s ease-out;
+  transition-delay: 0.6s;
+}
+
+.sghkit:hover .sghkak {
+  background: rgba(0,0,0,0);
+  transition-delay: 0.8s;
+}
+
+.sghkit:hover .sghkak i {
+  margin-top: 140px;
+  transition: 0.7s ease-in;
+  transition-delay: 0.6s;
+}
+
+.sghkit .sghkak span {
+  display: block;
+  position: absolute;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 10px;
+  width: 120px;
+  height: 12px;
+  line-height: 100%;
+  margin-top: 75px;
+  margin-left: -49px;
+  transform: rotate(-90deg);
+  color: var(--color-texto);
+  transition: 0.5s;
+  transition-delay: 0.2s;
+}
+
+.sghkit:hover .sghkak span {
+  margin-top: 90px;
+  transition: 0.5s;
+  transition-delay: 0.8s;
+}
+
+.sghkit .sghkfk {
+  position: absolute;
+  text-transform: uppercase;
+  color: var(--color-texto);
+  font-size: 9px;
+  line-height: 150%;
+  text-align-last: justify;
+  margin-left: 90px;
+  margin-top: 200px;
+  width: 225px;
+  letter-spacing: 0.2px;
+  transition: 0.5s ease-in;
+}
+
+.sghkit:hover .sghkfk {
+  margin-top: 150px;
+  transition: 0.5s ease-out;
+  transition-delay: 1s;
+}
+
+/*FIRMA GET'CHA HEAD IN THE GAME BY TROY BOLTON*/
+.sgbkit {
+  width: 330px;
+  height: 220px;
+  border: 11px solid var(--fondo-claro);
+  margin: 10px auto;
+  outline: 1px solid var(--fondo-oscuro);
+  outline-offset: -11px;
+  background: url(https://imgur.com/PPW5AEM.png) no-repeat;
+}
+
+.sgbkit .sgbcol {
+  padding: 20px;
+  width: 80px;
+  border-right: 2px solid var(--fondo-claro);
+  height: 180px;
+  background: rgba(0,0,0,0.4);
+  backdrop-filter: blur(2px);
+  font-size: 9px;
+  text-transform: uppercase;
+  color: var(--color-texto);
+  letter-spacing: 0.5px;
+  text-align-last: justify;
+  line-height: 150%;
+}
+
+.sgbkit .sgbcol span {
+  display: block;
+  width: 70px;
+  height: 75px;
+  text-align: center;
+  text-align-last: center;
+  font-family: 'Bangers';
+  font-weight: 700;
+  color: transparent;
+  -webkit-text-stroke-color: var(--color-texto);
+  -webkit-text-stroke-width: 1px;
+  font-size: 75px;
+  line-height: 100%;
+  letter-spacing: 0px;
+  margin-bottom: 15px;
+}
+
+.sgbkit:hover .sgbcol span {
+  animation: basket 3s ease-out infinite;
+}
+
+@keyframes basket {
+  0% {
+    transform: rotate(0deg);
+  }
+  10% {
+    transform: rotate(-90deg);
+  }
+  20% {
+    transform: rotate(90deg);
+  }
+  30% {
+    transform: rotate(-60deg);
+  }
+  40% {
+    transform: rotate(60deg);
+  }
+  50% {
+    transform: rotate(-30deg);
+  }
+  60% {
+    transform: rotate(30deg);
+  }
+  70% {
+    transform: rotate(-15deg);
+  }
+  80% {
+    transform: rotate(15deg);
+  }
+  90% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+/*BANGERS*/
+/* vietnamese */
+@font-face {
+  font-family: 'Bangers';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/bangers/v13/FeVQS0BTqb0h60ACH5FQ2Ixi.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Bangers';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/bangers/v13/FeVQS0BTqb0h60ACH5BQ2Ixi.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Bangers';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/bangers/v13/FeVQS0BTqb0h60ACH55Q2A.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
