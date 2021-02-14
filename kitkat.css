@@ -136,11 +136,11 @@
   font-size: 12px;
   text-transform: uppercase;
   letter-spacing: 10px;
-  width: 120px;
+  width: 140px;
   height: 12px;
   line-height: 100%;
-  margin-top: 75px;
-  margin-left: -49px;
+  margin-top: 65px;
+  margin-left: -58px;
   transform: rotate(-90deg);
   color: var(--color-texto);
   transition: 0.5s;
