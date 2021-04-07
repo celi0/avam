@@ -1,47 +1,68 @@
 /*firma jules*/
-.bjt {
-  width: 350px;
-  height: 250px;
+@font-face { font-family: 'Old London'; src: url('https://celi0.github.io/avam/OldLondon.ttf'); }
+
+.bkjulfr {
+  width: 330px;
+  height: 220px;
   margin: 10px auto;
+  border-top: 3px solid #a6886e;
+  border-left: 3px solid #a6886e;
+  border-bottom: 3px solid #944139;
+  border-right: 3px solid #944139;
+  outline: 2px solid var(--fondo-oscuro);
+  outline-offset: -3px;
+  overflow: none;
 }
 
-.cjt {
-  width: 350px;
-  height: 250px;
-  overflow: hidden;
+.bkjulfr .nm {
+  font-family: 'Old London';
+  color: transparent;
   position: absolute;
+  margin: 110px 20px;
+  font-size: 75px;
+  line-height: 100%;
+  -webkit-text-stroke-color: var(--color-texto-claro);
+  -webkit-text-stroke-width: 1px;
 }
 
-.pjt {
-  width: 350px;
-  height: 386px;
-  background: url(https://i.imgur.com/gMUxCpj.png);
-  transition: ease-in 0.3s;
-  position: absolute;
+.bkjulfr .nm i {
+  font-style: normal;
+  transition: 1s;
 }
 
-.bjt:hover .pjt {
-  margin-top: -136px;
-  transition: ease-out 0.4s;
+.bkjulfr .nm span {
+  opacity: 1;
+  transition-delay: 0.5s;
 }
 
-.rjt {
-  outline: 1px solid rgba(255,255,255,0.6);
-  outline-offset: -20px;
-  position: absolute;
-  width: 350px;
-  height: 250px;
+.bkjulfr:hover .nm span {
+  opacity: 0;
+  transition-delay: 0s;
 }
 
-.ljt {
-  font-family: 'Playfair Display';
-  font-size: 60px;
-  line-height: 60px;
-  margin-top: 160px;
-  margin-left: 35px;
-  font-weight: 500;
-  font-style: italic;
-  position: absolute;
-  color: rgba(255,255,255,0.8);
-  text-shadow: 1px 1px 5px rgba(000,000,000,0.6);
+.bkjulfr:hover .nm i {
+  display: block;
+  width: 100px;
+  text-align: center;
+  font-size: 150px;
+  margin: -45px 95px;
+  animation: glitch 5s infinite;
+  -webkit-text-stroke-color: #000;
+  -webkit-text-stroke-width: 2px;
+  transition: 1s;
+}
+
+@keyframes glitch {
+  30% {
+    text-shadow: 1px 1px rgba(166, 136, 110, 0.9), -1px -1px rgba(148, 65, 57, 0.9);
+  }
+  50% {
+    text-shadow: 50px 50px rgba(166, 136, 110, 0.9), -50px -50px rgba(148, 65, 57, 0.9);
+  }
+  70% {
+    text-shadow: 50px -50px rgba(166, 136, 110, 0.9), -50px 50px rgba(148, 65, 57, 0.9);
+  }
+  80% {
+    text-shadow: 1px -1px rgba(166, 136, 110, 0.9), 1px 1px rgba(148, 65, 57, 0.9);
+  }
 }
