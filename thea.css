@@ -1,0 +1,89 @@
+@font-face { font-family: 'Charlotte Southern'; src: url('https://celi0.github.io/avam/CharlotteSouthern.otf'); }
+
+.aesthea {
+  width: 500px;
+  min-height: 300px;
+  background: var(--fondo-claro);
+  margin: auto;
+  border: 1px dotted var(--borde-gris);
+}
+
+.aesthea .aesgrid {
+  padding: 52px;
+  width: 396px;
+  margin: auto;
+}
+
+.aesthea .aesgrid img {
+  width: 100px;
+  height: 100px;
+  border: 1px solid var(--borde-gris);
+  margin: 15px;
+}
+
+.aesthea .aestit {
+  width: 440px;
+  padding: 50px 30px 50px;
+  height: 50px;
+  background-image: url(https://imgur.com/pDCGvCe.png), linear-gradient(rgba(14, 14, 14, 0.1)50%, rgba(14, 14, 14, 0.67));
+  background-blend-mode: multiply;
+  background-color: var(--fondo-claro);
+  color: var(--color-texto);
+  font-family: 'Charlotte Southern';
+  font-size: 50px;
+  line-height: 100%;
+  text-transform: lowercase;
+}
+
+.aesthea .aestit span {
+  transform: rotate(-10deg);
+  display: block;
+}
+
+.aesthea .aesplist {
+  padding: 0px 25px;
+  height: 47px;
+  margin-bottom: 50px;
+  font-family: 'Arial';
+  font-size: 10px;
+  text-transform: uppercase;
+  color: var(--borde-gris);
+}
+
+.aesthea .aesplist div {
+  width: 205px;
+  margin: 10px;
+  display: inline-block;
+}
+
+.aesthea .aesplist a {
+  color: #251314;
+  text-decoration: none;
+  font-size: 15px;
+  width: 15px;
+  text-align: center;
+  height: 15px;
+  line-height: 100%;
+  padding: 10px;
+  border: 1px solid #251314;
+  border-radius: 50%;
+}
+
+.aesthea .aesplist span {
+  color: var(--color-texto);
+  font-family: 'Charlotte Southern';
+  font-size: 30px;
+  text-transform: lowercase;
+  margin-left: 5px;
+  margin-top: -12px;
+  position: absolute;
+}
+
+.aesthea .aesplist n {
+  font-weight: 700;
+  font-style: italic;
+  display: block;
+  position: absolute;
+  margin-left: 45px;
+  margin-top: -5px;
+}
