@@ -42,8 +42,8 @@
 
 .aesthea .aesplist {
   padding: 0px 25px;
-  height: 47px;
-  margin-bottom: 50px;
+  height: 37px;
+  margin-bottom: 80px;
   font-family: 'Arial';
   font-size: 10px;
   text-transform: uppercase;
@@ -52,6 +52,7 @@
 
 .aesthea .aesplist div {
   width: 205px;
+  height: 37px;
   margin: 10px;
   display: inline-block;
 }
@@ -67,6 +68,8 @@
   padding: 10px;
   border: 1px solid #251314;
   border-radius: 50%;
+  display: block;
+  position: absolute;
 }
 
 .aesthea .aesplist span {
@@ -74,8 +77,8 @@
   font-family: 'Charlotte Southern';
   font-size: 30px;
   text-transform: lowercase;
-  margin-left: 5px;
-  margin-top: -12px;
+  margin-left: 45px;
+  margin-top: 2px;
   position: absolute;
 }
 
@@ -85,5 +88,5 @@
   display: block;
   position: absolute;
   margin-left: 45px;
-  margin-top: -5px;
+  margin-top: 22px;
 }
