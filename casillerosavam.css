@@ -1,0 +1,194 @@
+/* CASILLERO KIT & KYLLIAN */
+.caskk {
+  width: 870px;
+  border: 1px solid var(--borde-gris);
+  margin: 0px auto;
+  min-height: 300px;
+  padding: 4px;
+}
+
+.caskk {
+  --accent-kk: red;
+}
+
+.caskk .charkk {
+  margin: 4px;
+  width: 425px;
+  border: 1px solid var(--borde-gris);
+  min-height: 600px;
+  display: inline-block;
+  background-size: 100%;
+  background-blend-mode: multiply;
+  background-color: var(--fondo-claro);
+  overflow: auto;
+  line-height: 0px;
+}
+
+.charkk .hovkk {
+  background: rgba(0,0,0,0.7);
+  width: 325px;
+  height: 500px;
+  padding: 50px;
+  position: absolute;
+  overflow: hidden;
+  opacity: 0;
+  transition: 1s ease-out;
+  transition-delay: 1s;
+}
+
+.charkk:hover .hovkk {
+  opacity: 1;
+  transition: 1s ease-in;
+}
+
+.charkk .namekk {
+  font-family: 'Noto Sans SC';
+  font-weight: 900;
+  color: var(--color-texto);
+  position: absolute;
+  transform: rotate(-90deg);
+  width: 500px;
+  height: 30px;
+  font-size: 30px;
+  text-transform: uppercase;
+  line-height: 85%;
+  margin: -800px -235px;
+  overflow: hidden;
+  transition: 1s ease-in;
+}
+
+.charkk:hover .namekk {
+  margin-top: 235px;
+  transition: 1s ease-out;
+  transition-delay: 0.5s;
+}
+
+.charkk .namekk div {
+  display: inline-block;
+  padding-right: 10px;
+}
+
+.charkk .namekk div:after {
+  content: "";
+  width: 100px;
+  height: 1px;
+  background: var(--accent-kk);
+  display: inline-block;
+  vertical-align: 10px;
+  margin-left: 10px;
+}
+
+.charkk.kit .namekk div:after { width: 128px; }
+.charkk.ian .namekk div:after { width: 172px; }
+
+.charkk .namekk span {
+  color: var(--accent-kk);
+}
+
+.charkk .datkk {
+  position: absolute;
+  margin-left: 440px;
+  width: 240px;
+  margin-top: 320px;
+  height: 190px;
+  overflow: auto;
+  transition: 0.7s ease-in;
+  transition-delay: 0.2s;
+}
+
+.charkk:hover .datkk {
+  margin-left: 40px;
+  transition: 1s ease-in;
+  transition-delay: 0.5s;
+}
+
+.charkk .datkk div {
+  margin: 5px 0px;
+  padding: 10px;
+  background: var(--fondo-oscuro);
+}
+
+.charkk .datkk i {
+  display: inline-block;
+  font-size: 10px;
+  line-height: 100%;
+  height: 10px;
+  width: 14px;
+  text-align: center;
+  padding: 10px 8px;
+  background: var(--accent-kk);
+  color: var(--fondo-oscuro);
+}
+
+.charkk .datkk span {
+  margin-left: 10px;
+  font-family: 'Roboto';
+  font-weight: 300;
+  font-size: 10px;
+  text-transform: uppercase;
+  color: var(--color-gris);
+  letter-spacing: 1px;
+}
+
+.charkk .enlkk {
+  position: absolute;
+  margin: 325px 690px;
+  width: 35px;
+  transition: 1s ease-out;
+}
+
+.charkk:hover .enlkk {
+  margin-left: 290px;
+  transition: 1s ease-in;
+  transition-delay: 0.7s;
+}
+
+.charkk .enlkk a {
+  display: inline-block;
+  text-decoration: none;
+  font-size: 15px;
+  line-height: 15px;
+  text-align: center;
+  width: 15px; 
+  height: 15px;
+  padding: 10px;
+  background: var(--fondo-oscuro);
+  color: var(--accent-kk);
+  margin: 5px 0px;
+}
+
+.charkk .pickk {
+  position: absolute;
+  width: 160px;
+  height: 160px;
+  background: var(--accent-kk);
+  border-radius: 50%;
+  padding: 1px;
+  border: 5px solid var(--fondo-oscuro);
+  margin: 143px 76.5px;
+  transform: scale(0);
+  transition: 0.8s ease-in;
+  opacity: 0.4;
+}
+
+.charkk:hover .pickk {
+  transform: scale(1);
+  transition: 1s ease-out;
+  transition-delay: 0.9s;
+  opacity: 1;
+}
+
+.charkk .pickk img {
+  width: 150px;
+  height: 150px;
+  border: 5px solid var(--fondo-oscuro);
+  border-radius: 50%;
+}
+
+.charkk.kit {
+  --accent-kk: #758527;
+}
+
+.charkk.ian {
+  --accent-kk: #126180;
+}
