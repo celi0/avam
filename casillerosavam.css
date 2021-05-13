@@ -1,4 +1,9 @@
 /* CASILLERO KIT & KYLLIAN */
+
+  /* fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@900&family=Roboto:wght@300&display=swap');
+@import url('https://celi0.github.io/fonts/fontawesome.css');
+
 .caskk {
   width: 870px;
   border: 1px solid var(--borde-gris);
@@ -103,7 +108,7 @@
 }
 
 .charkk .datkk div {
-  margin: 5px 0px;
+  margin: 10px 0px;
   padding: 10px;
   background: var(--fondo-oscuro);
 }
