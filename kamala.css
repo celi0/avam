@@ -1,0 +1,90 @@
+.frkam {
+  width: 352px;
+  height: 202px;
+  padding: 2px;
+  background-image: linear-gradient(-135deg, #2d333b, #3d4650);
+  margin: 5px auto;
+  line-height: 0%;
+}
+
+.frkam .boxkam {
+  width: 350px;
+  height: 200px;
+  border: 1px solid var(--fondo-oscuro);
+  overflow: hidden;
+  position: absolute;
+}
+
+.frkam .imgkam {
+  width: 350px;
+  height: 300px;
+  margin-top: -100px;
+  transition: 1s ease-out;
+  position: absolute;
+}
+
+.frkam:hover .imgkam {
+  width: 350px;
+  height: 300px;
+  margin-top: 00px;
+  transition: 1s ease-in;
+}
+
+.frkam .ickam {
+  position: absolute;
+  font-size: 30px;
+  line-height: 30px;
+  text-align: center;
+  height: 20px;
+  width: 100px;
+  text-align: center;
+  color: #8ea3c7;
+  margin: -50px 20px;
+  border-bottom: 3px solid #8ea3c7;
+  padding-bottom: 8px;
+  transition: 0.75s ease-in;
+  transition-delay: 0.5s;
+}
+
+.frkam:hover .ickam {
+  margin-top: 20px;
+  transition: 0.75s ease-in;
+  transition-delay: 0.75s;
+}
+
+.frkam .letkam {
+  position: absolute;
+  font-size: 75px;
+  line-height: 75px;
+  color: #8ea3c7;
+  margin: 225px 13px;
+  font-family: 'Heebo';
+  font-weight: 900;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 5px var(--fondo-oscuro);
+}
+
+.frkam .frakam {
+  font-family: 'Heebo';
+  color: var(--fondo-oscuro);
+  margin: 267px 75px;
+  position: absolute;
+  font-size: 8px;
+  text-transform: uppercase;
+  font-weight: 400;
+  text-shadow: 1px 0px #8ea3c7;
+  width: 250px;
+  text-align: justify;
+  text-align-last: justify;
+  transition: 0.8s ease-in;
+  transition-delay: 0.25s;
+  line-height: 140%;
+}
+
+.frkam:hover .frakam {
+  margin: 60px 20px;
+  width: 100px;
+  text-shadow: none;
+  transition: 1s ease-out;
+  transition-delay: 0.25s;
+}
