@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@900&display=swap');
+
+.frhaz {
+  border: 16px solid var(--fondo-claro);
+  width: 350px;
+  height: 200px;
+  margin: auto;
+  background-image: url(https://imgur.com/qWiL3Ir.png);
+  background-repeat: no-repeat;
+  outline: 1px solid var(--borde-gris);
+  outline-offset: -16px;
+  overflow: hidden;
+}
+
+.frhaz .nmhaz {
+  font-family: 'Frank Ruhl Libre';
+  font-weight: 900;
+  text-transform: lowercase;
+  font-size: 45px;
+  letter-spacing: -2px;
+  line-height: 100%;
+  text-shadow: 1px 1px 2px rgba(000, 000, 000, 0.9);
+  margin: 155px 7px;
+  position: absolute;
+  transition: 1s ease-out;
+}
+
+.frhaz .qthaz {
+  background-color: var(--fondo-claro);
+  padding: 10px;
+  font-family: 'Calibri';
+  font-size: 9px;
+  text-transform: uppercase;
+  text-align: justify;
+  line-height: 11px;
+  letter-spacing: 0.5px;
+  height: 22px;
+  border-top: 1px solid var(--borde-gris);
+  width: 330px;
+  margin-top: 200px;
+  transition: 1s ease-out;
+}
+
+.frhaz:hover .nmhaz {
+  margin-top: 112px;
+  transition: 0.8s ease-out;
+}
+
+.frhaz:hover .qthaz {
+  margin-top: 157px;
+  transition: 0.8s ease-out;
+}
