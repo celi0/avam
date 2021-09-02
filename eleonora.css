@@ -69,6 +69,11 @@
   50% {padding: 10px; margin-top: 30px; margin-left: 105px;}
 }
 
+.fr-eleo .fr-icon i {
+  display: block;
+  margin-top: 3px;
+}
+
 .fr-eleo .fr-bold {
   background: 
   color: #000;
