@@ -1,109 +1,12 @@
-.fr-marik {
-  width: 350px;
-  height: 200px;
-  margin: 6px auto;
-  background-repeat: no-repeat;
-  outline: 1px solid var(--borde-gris);
-  outline-offset: 2px;
-  overflow: hidden;
-  transition: 0.5s;
-  transition-delay: 1.5s;
-}
-
-.fr-marik:hover {
-  outline-color: rgba(251,215,76,0.3);
-  transition: 0.5s;
-}
-
-.fr-marik .fr-bloq {
-  width: 60px;
-  padding: 30px 20px;
-  background: rgba(8,8,8,0.9);
-  height: 140px;
-  backdrop-filter: blur(2px);
-  position: absolute;
-  margin-left: 210px;
-  line-height: 100%;
-  transition: 1s ease-out;
-  transition-delay: 1s;
-}
-
-.fr-marik:hover .fr-bloq {
-  margin-left: 0px;
-  background: rgba(8,8,8,0.7);
-  width: 310px;
-  transition: 2s ease-in;
-}
-
-.fr-marik .fr-bloq span {
-  font-family: 'Arial';
-  font-weight: 900;
-  width: 60px;
-  line-height: 60px;
-  font-size: 70px;
-  display: block;
-  text-align: center;
-  text-shadow: 2px 2px 1px rgba(251,215,76,1);
-  text-transform: uppercase;
-  position: absolute;
-  transition: 1s;
-  transition-delay: 1s;
-}
-
-.fr-marik:hover .fr-bloq span {
-  width: 310px;
-  transition: 1s;
-}
-
-.fr-marik .fr-bloq b {
-  opacity: 0;
-  font-weight: 900;
-  transition: 1s ease-in;
-}
-
-.fr-marik:hover .fr-bloq b {
-  opacity: 1;
-  transition: 1s ease-in;
-  transition-delay: 2s;
-}
-
-.fr-marik .fr-q1 {
-  font-family: 'Calibri';
-  font-size: 8px;
-  text-transform: uppercase;
-  letter-spacing: 0.5px;
-  text-align: justify;
-  text-align-last: justify;
-  line-height: 12px;
-  position: absolute;
-  width: 60px;
-  margin-top: 90px;
-  transition: 1s;
-  transition-delay: 1s;
-}
-
-.fr-marik:hover .fr-q1 {
-  opacity: 0;
-  transition: 0.5s ease-in;
-}
-
-.fr-marik .fr-q2 {
-  font-family: 'Calibri';
-  font-size: 8px;
-  text-transform: uppercase;
-  letter-spacing: 0.5px;
-  text-align: justify;
-  text-align-last: justify;
-  width: 310px;
-  line-height: 12px;
-  margin-top: 140px;
-  position: absolute;
-  opacity: 0;
-  transition: 1s;
-}
-
-.fr-marik:hover .fr-q2 {
-  opacity: 1;
-  transition: 1s;
-  transition-delay: 2.5s;
-}
+.fr-marik { width: 350px; height: 200px; margin: 6px auto; background-repeat: no-repeat; outline: 1px solid var(--borde-gris); outline-offset: 2px; overflow: hidden; transition: 0.5s; transition-delay: 1.5s; } 
+.fr-marik:hover { outline-color: rgba(251,215,76,0.3); transition: 0.5s; } 
+.fr-marik .fr-bloq { width: 60px; padding: 30px 20px; background: rgba(8,8,8,0.9); height: 140px; backdrop-filter: blur(2px); position: absolute; margin-left: 210px; line-height: 100%; transition: 1s ease-out; transition-delay: 1s; } 
+.fr-marik:hover .fr-bloq { margin-left: 0px; background: rgba(8,8,8,0.7); width: 310px; transition: 2s ease-in; } 
+.fr-marik .fr-bloq span { font-family: 'Arial'; font-weight: 900; width: 60px; line-height: 60px; font-size: 70px; display: block; text-align: center; text-shadow: 2px 2px 1px rgba(251,215,76,1); text-transform: uppercase; position: absolute; transition: 0s; transition-delay: 1s; } 
+.fr-marik:hover .fr-bloq span { width: 310px; transition: 0s linear; transition-delay: 2s; } 
+.fr-marik .fr-bloq b { opacity: 0; font-weight: 900; transition: 1s ease-in; } 
+.fr-marik:hover .fr-bloq b { opacity: 1; transition: 1s ease-in; transition-delay: 2.5s; } 
+.fr-marik .fr-q1 { font-family: 'Calibri'; font-size: 8px; text-transform: uppercase; letter-spacing: 0.5px; text-align: justify; text-align-last: justify; line-height: 12px; position: absolute; width: 60px; margin-top: 90px; transition: 1s; transition-delay: 1s; } 
+.fr-marik:hover .fr-q1 { opacity: 0; transition: 0.5s ease-in; } 
+.fr-marik .fr-q2 { font-family: 'Calibri'; font-size: 8px; text-transform: uppercase; letter-spacing: 0.5px; text-align: justify; text-align-last: justify; width: 310px; line-height: 12px; margin-top: 140px; position: absolute; opacity: 0; transition: 1s; } 
+.fr-marik:hover .fr-q2 { opacity: 1; transition: 1s; transition-delay: 3s; }
