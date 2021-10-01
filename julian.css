@@ -3,72 +3,132 @@
 }
 
 /*firma jules*/
-@font-face { font-family: 'Old London'; src: url('https://celi0.github.io/avam/OldLondon.ttf'); }
-
-.bkjulfr {
-  width: 330px;
+.fr-jules {
+  width: 300px;
   height: 220px;
-  margin: 10px auto;
-  border-top: 3px solid #a6886e;
-  border-left: 3px solid #a6886e;
-  border-bottom: 3px solid #944139;
-  border-right: 3px solid #944139;
-  outline: 2px solid var(--fondo-oscuro);
-  outline-offset: -3px;
-  overflow: none;
-}
-
-.bkjulfr .nm {
-  font-family: 'Old London';
-  color: transparent;
-  position: absolute;
-  margin: 110px 20px;
-  font-size: 75px;
-  line-height: 100%;
-  -webkit-text-stroke-color: var(--color-texto-claro);
-  -webkit-text-stroke-width: 1px;
-}
-
-.bkjulfr .nm i {
-  font-style: normal;
-  transition: 1s;
-}
-
-.bkjulfr .nm span {
-  opacity: 1;
+  margin: auto;
+  background-repeat: no-repeat;
+  border: 10px solid var(--fondo-oscuro);
+  outline: 1px solid var(--borde-gris);
+  outline-offset: -9px;
+  overflow: hidden;
+  transition: 0.5s;
   transition-delay: 0.5s;
 }
 
-.bkjulfr:hover .nm span {
-  opacity: 0;
-  transition-delay: 0s;
+.fr-jules:hover {
+  outline-color: var(--jules);
+  transition: 1s ease-in;
+  transition-delay: 0.5s;
 }
 
-.bkjulfr:hover .nm i {
-  display: block;
-  width: 100px;
+.fr-jules .fr-hov {
+  width: 300px;
+  height: 220px;
+  position: absolute;
+  overflow: hidden;
+}
+
+.fr-jules .fr-black {
+  width: 300px;
+  height: 220px;
+  background: rgba(000,000,000,0);
+  position: absolute;
+  transition: 1s ease-in;
+  transition-delay: 2s;
+}
+
+.fr-jules:hover .fr-black {
+  background: rgba(000,000,000,0.7);
+  backdrop-filter: blur(1px);
+  transition: 1s ease-out;
+}
+
+.fr-jules .fr-icon {
+  margin: 40px auto 30px;
+  width: 25px;
   text-align: center;
-  font-size: 150px;
-  margin: -45px 95px;
-  animation: glitch 5s infinite;
-  -webkit-text-stroke-color: #000;
-  -webkit-text-stroke-width: 2px;
-  transition: 1s;
+  line-height: 100%;
+  padding: 15px;
+  font-size: 25px;
+  height: 25px;
+  border: 1px solid var(--jules);
+  color: var(--jules);
+  animation: rotacion infinite 5s linear;
+  border-radius: 15px;
+  opacity: 0;
+  transition: 1.5s ease-out;
+  transition-delay: 1s;
 }
 
-@keyframes glitch {
-  30% {
-    text-shadow: 1px 1px rgba(166, 136, 110, 0.9), -1px -1px rgba(148, 65, 57, 0.9);
-  }
-  50% {
-    text-shadow: 50px 50px rgba(166, 136, 110, 0.9), -50px -50px rgba(148, 65, 57, 0.9);
-  }
-  70% {
-    text-shadow: 50px -50px rgba(166, 136, 110, 0.9), -50px 50px rgba(148, 65, 57, 0.9);
-  }
-  80% {
-    text-shadow: 1px -1px rgba(166, 136, 110, 0.9), 1px 1px rgba(148, 65, 57, 0.9);
-  }
+.fr-jules:hover .fr-icon {
+  opacity: 1;
+  transition: 1.5s ease-in;
+}
+
+.fr-jules .fr-icon i {
+  display: block;
+  backrgound: red;
+  transform: rotate(45deg);
+  animation: rotacionanti infinite 5s linear;
+  text-align: center;
+  width: 25px;
+}
+
+@keyframes rotacion {
+  0% {transform: rotate(-45deg);}
+  100% {transform: rotate(-405deg);}
+}
+
+@keyframes rotacionanti {
+  0% {transform: rotate(45deg);}
+  100% {transform: rotate(405deg);}
+}
+
+.fr-jules .fr-name {
+  font-family: 'Abril Fatface';
+  font-size: 50px;
+  -webkit-text-stroke: 1px var(--jules);
+  color: transparent;
+  letter-spacing: 2px;
+  position: absolute;
+  line-height: 100%;
+  height: 40px;
+  margin-top: 40px;
+  margin-left: 310px;
+  width: 400px;
+  transition: 1s ease-out;
+}
+
+.fr-jules:hover .fr-name {
+  margin-left: 7px;
+  transition: 1s ease-out;
+  transition-delay: 1.5s;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+
+.fr-jules .fr-text {
+  font-family: 'Calibri';
+  text-transform: uppercase;
+  font-size: 9px;
+  letter-spacing: 1px;
+  line-height: 9px;
+  width: 190px;
+  text-align: justify;
+  text-align-last: justify;
+  margin-left: 55px;
+  margin-top: 150px;
+  opacity: 0;
+  position: absolute;
+  transition: 1.5s ease-in-out;
+  transition-delay: 1s;
+}
+
+.fr-jules:hover .fr-text {
+  margin-top: 0px;
+  transition: 1.5s ease-in-out;
+  opacity: 1;
 }
 
 /*** BAÚL ***/
