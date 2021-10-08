@@ -1,0 +1,115 @@
+.fr-ronan {
+  width: 300px;
+  height: 220px;
+  margin: auto;
+  border: 10px solid var(--fondo-oscuro);
+  outline: 1px solid var(--acento-ronan);
+  outline-offset: -9px;
+}
+
+.fr-ronan .fr-hov {
+  position: absolute;
+  overflow: hidden;
+  width: 300px;
+  height: 220px;
+  transition: 1s ease-out;
+  transition-delay: 0.3s;
+}
+
+.fr-ronan:hover .fr-hov {
+  background: rgba(001,001,001,0.4);
+  backdrop-filter: blur(1px);
+  transition: 1s ease-in;
+}
+
+.fr-ronan .fr-icon1, .fr-ronan .fr-icon2 {
+  font-size: 50px;
+  line-height: 100%;
+  width: 50px;
+  position: absolute;
+  margin-top: 160px;
+  color: var(--acento-ronan);
+  transition: 1s ease-out;
+  transition-delay: 0.3s;
+}
+
+.fr-ronan .fr-icon1 {
+  margin-left: 140px;
+}
+
+.fr-ronan .fr-icon2 {
+  margin-left: 110px;
+}
+
+.fr-ronan:hover .fr-icon1, .fr-ronan:hover .fr-icon2 {
+  font-size: 80px;
+  margin-top: 60px;
+  transition: 1s ease-in;
+}
+
+.fr-ronan:hover .fr-icon1 {
+  transform: rotate(-225deg);
+  margin-left: 30px;
+}
+
+.fr-ronan:hover .fr-icon2 {
+  transform: rotate(225deg);
+  margin-left: 220px;
+}
+
+.fr-ronan .fr-icon1 i {
+  display: block; 
+}
+
+.fr-ronan .fr-icon2 i {
+  display: block;
+  transform: scale(-1,1);
+}
+  
+.fr-ronan .fr-name {
+  font-family: 'Arial';
+  font-weight: 900;
+  text-transform: uppercase;
+  font-size: 60px;
+  width: 120px;
+  word-wrap: break-word;
+  line-height: 50px;
+  text-align: center;
+  letter-spacing: 5px;
+  background:;
+  position: absolute;
+  margin-top: 35px;
+  margin-left: 90px;
+  transform: scale(0);
+  opacity: 0;
+  transition: 1s ease-in;
+}
+
+.fr-ronan:hover .fr-name {
+  transform: scale(1);
+  opacity: 1;
+  transition: 1.5s ease-out;
+  transition-delay: 0.5s;
+}
+
+.fr-ronan .fr-text {
+  font-family: 'Calibri';
+  font-size: 8px;
+  line-height: 10px;
+  text-transform: uppercase;
+  color: var(--color-texto);
+  letter-spacing: 1px;
+  position: absolute;
+  margin-top: 194px;
+  width: 280px;
+  margin-left: 10px;
+  text-align-last: justify;
+  text-shadow: 0px 1px 1px #000;
+  transition: 1s ease-out;
+  transition-delay: 0.3s;
+}
+
+.fr-ronan:hover .fr-text {
+  margin-top: 250px;
+  transition: 1s ease-out;
+}
