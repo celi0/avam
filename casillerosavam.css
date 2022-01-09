@@ -10,6 +10,7 @@
   margin: 0px auto;
   min-height: 300px;
   padding: 4px;
+  box-sizing: content-box;
 }
 
 .caskk {
@@ -27,6 +28,7 @@
   background-color: var(--fondo-claro);
   overflow: auto;
   line-height: 0px;
+  box-sizing: content-box;
 }
 
 .charkk .hovkk {
@@ -39,6 +41,7 @@
   opacity: 0;
   transition: 1s ease-out;
   transition-delay: 1s;
+  box-sizing: content-box;
 }
 
 .charkk:hover .hovkk {
@@ -60,6 +63,7 @@
   margin: -800px -235px;
   overflow: hidden;
   transition: 1s ease-in;
+  box-sizing: content-box;
 }
 
 .charkk:hover .namekk {
@@ -71,6 +75,7 @@
 .charkk .namekk div {
   display: inline-block;
   padding-right: 10px;
+  box-sizing: content-box;
 }
 
 .charkk .namekk div:after {
@@ -81,10 +86,11 @@
   display: inline-block;
   vertical-align: 10px;
   margin-left: 10px;
+  box-sizing: content-box;
 }
 
-.charkk.kit .namekk div:after { width: 128px; }
-.charkk.ian .namekk div:after { width: 172px; }
+.charkk.kit .namekk div:after { width: 128px; box-sizing: content-box;}
+.charkk.ian .namekk div:after { width: 172px; box-sizing: content-box;}
 
 .charkk .namekk span {
   color: var(--accent-kk);
@@ -99,6 +105,7 @@
   overflow: auto;
   transition: 0.7s ease-in;
   transition-delay: 0.2s;
+  box-sizing: content-box;
 }
 
 .charkk:hover .datkk {
@@ -111,6 +118,7 @@
   margin: 10px 0px;
   padding: 10px;
   background: var(--fondo-oscuro);
+  box-sizing: content-box;
 }
 
 .charkk .datkk i {
@@ -123,6 +131,7 @@
   padding: 10px 8px;
   background: var(--accent-kk);
   color: var(--fondo-oscuro);
+  box-sizing: content-box;
 }
 
 .charkk .datkk span {
@@ -133,6 +142,7 @@
   text-transform: uppercase;
   color: var(--color-gris);
   letter-spacing: 1px;
+  box-sizing: content-box;
 }
 
 .charkk .enlkk {
@@ -140,6 +150,7 @@
   margin: 325px 690px;
   width: 35px;
   transition: 1s ease-out;
+  box-sizing: content-box;
 }
 
 .charkk:hover .enlkk {
@@ -160,6 +171,7 @@
   background: var(--fondo-oscuro);
   color: var(--accent-kk);
   margin: 5px 0px;
+  box-sizing: content-box;
 }
 
 .charkk .pickk {
@@ -174,6 +186,7 @@
   transform: scale(0);
   transition: 0.8s ease-in;
   opacity: 0.4;
+  box-sizing: content-box;
 }
 
 .charkk:hover .pickk {
@@ -188,6 +201,7 @@
   height: 150px;
   border: 5px solid var(--fondo-oscuro);
   border-radius: 50%;
+  box-sizing: content-box;
 }
 
 .charkk.kit {
